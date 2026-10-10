@@ -1,17 +1,16 @@
 {
-  "name": "ppb_api",
+  "name": "responsi_mod1_prakpbb_kel18",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "REST API pencatatan peminjaman buku perpustakaan (Node.js, Express, Supabase)",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@supabase/supabase-js": "^2.113.0",
     "dotenv": "^17.4.2",
